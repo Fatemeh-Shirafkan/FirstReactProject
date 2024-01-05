@@ -1,0 +1,8 @@
+.header{
+    background-image: url('../../../public/Background/02.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
