@@ -6,3 +6,45 @@
     height: 100vh;
     position: relative;
 }
+
+.content_box {
+    position: absolute;
+    top: 44%;
+    margin-left: 45px;
+}
+
+.content_box_title{
+    font-size: 59px;
+    font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+    letter-spacing: -.025em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.1;
+}
+
+.content_box_text {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    line-height: 1.4;
+    max-width: 466px;
+}
+
+.content_box_btn {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: #fff;
+    background: 0 0;
+    border: 2px solid #fff ;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.content_box_btn:hover {
+    color: #6a6c75;
+    background: #FD871F;
+    border-color: #FD871F;
+}
