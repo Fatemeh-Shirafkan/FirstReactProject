@@ -1,0 +1,17 @@
+.product_sct {
+    padding: 100px 0 100px 0;
+}
+
+.product_title {
+    font-weight: 700;
+    color: #515769;
+    line-height: 1.4;
+    margin: 0 0 15px;
+}
+
+.product_text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a6a7aa;
+    margin-bottom: 15px;
+}

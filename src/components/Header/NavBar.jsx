@@ -1,5 +1,5 @@
 import './NavBar.css'
-import SVGComponent from '../../../public/Icons/HamburgerMenu'
+
 export default function NavBar() {
   return (
     <div className='navBar'>
@@ -16,7 +16,7 @@ export default function NavBar() {
                 <a className='nav_item_child nav_item-hover' href="">HOME</a>
                 </li>
               <li className='nav_item'>
-                <a className='nav_item_child nav_item-hover' href="">TEAM</a>
+                <a className='nav_item_child nav_item-hover' href="">PRODUCTS</a>
                 </li>
               <li className='nav_item'>
                 <a className='nav_item_child nav_item-hover' href="">SERVICES</a>
