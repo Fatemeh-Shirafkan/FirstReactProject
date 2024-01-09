@@ -12,7 +12,7 @@ export default function NavBar() {
               <img width={146} src="Logo/logo-dark.png" alt="Logo"/>
             </div>
           </div>
-          <div className='col'>
+          <div className='col d-flex justify-content-end'>
             <ul className='nav_list'>
               <li className='nav_item'>
                 <a className='nav_item_child nav_item-hover' href="">HOME</a>
