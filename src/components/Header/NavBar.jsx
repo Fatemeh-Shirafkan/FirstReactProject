@@ -1,4 +1,6 @@
-import './NavBar.css'
+import React from 'react'
+import './Header.css'
+import SVGComponent from '../../../public/Icons/HamburgerMenu.jsx'
 
 export default function NavBar() {
   return (
@@ -7,7 +9,7 @@ export default function NavBar() {
         <div className='row align-items-center'>
           <div className='col'>
             <div className='logo'>
-              <img width={146} src="./public/Logo/logo-dark.png" alt="Logo"/>
+              <img width={146} src="Logo/logo-dark.png" alt="Logo"/>
             </div>
           </div>
           <div className='col'>
@@ -33,19 +35,18 @@ export default function NavBar() {
             </ul>
 
             {/* Responsive part for Hamburger menue */}
-            {/* <div className='hamburgerMenu'>
+            <div className='hamburgerMenu'>
               <SVGComponent></SVGComponent>
             </div>
-            <nav>
-            <ul>
+            {/* <ul>
                 <li><a href="">HOME</a></li>
                 <li><a href="">TEAM</a></li>
                 <li><a href="">SERVICES</a></li>
                 <li><a href="">CREDENTIALS</a></li>
                 <li><a href="">PRICING</a></li>
                 <li><a href="">CONTACT</a></li>
-              </ul>
-            </nav> */}
+              </ul> */}
+
           </div>
         </div>
       </nav>
