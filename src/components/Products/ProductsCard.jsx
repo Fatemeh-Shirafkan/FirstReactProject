@@ -3,19 +3,19 @@ import './Products.css'
 
 export default function ProductsCard() {
   return (
-    <div className='col-sm-4 mb-sm-3'>
-        <div className="m-b-20 product_card_img_box">
+    <div className='col-sm-6 col-lg-4 mb-sm-3'>
+        <div className="mb-4 product_card_img_box">
             <img className="product_card_img" src="Products/01.jpg" alt="Latest Products Image"/>
         </div>
 
-        <h4>
+        <h4 className='product_card_header'>
             <a href="#">Interior</a>
-            <span className="margin-l-20">Architecture</span>
+            <span>Architecture</span>
         </h4>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+        <p className='product_card_content'>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
 
-        <a className="" href="#">Details</a>
+        <a className="details" href="#">Details</a>
 
     </div>
   )
