@@ -36,7 +36,7 @@ export default function NavBar() {
 
             {/* Responsive part for Hamburger menue */}
             <div className='hamburgerMenu'>
-              <SVGComponent></SVGComponent>
+              <SVGComponent/>
             </div>
             {/* <ul>
                 <li><a href="">HOME</a></li>

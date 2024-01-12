@@ -4,6 +4,7 @@ import ProductsCard from './ProductsCard.jsx'
 
 export default function Products() {
 
+    // Cards info
     let allProduct = [
         {id:1, title:'Interior', type:'architecture', img:'/Products/01.jpg',},
         {id:2, title:'Trend', type:'setting', img:'/Products/02.jpg',},

@@ -1,0 +1,47 @@
+.light_bg {
+    background: #fafafa;
+}
+
+.team_box {
+    padding: 100px 0 100px 0;
+}
+
+.team_content {
+    margin-bottom: 25px;
+}
+
+.team_content_title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #515769;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.team_content_description {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a6a7aa;
+    word-wrap: break-word;
+}
+
+.team_content_btn {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: #fff;
+    background: #515769;
+    border-color: transparent;
+    border-width: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    transition: all 0.5s;
+}
+
+.team_content_btn:hover {
+    background: #FD871F;
+}
