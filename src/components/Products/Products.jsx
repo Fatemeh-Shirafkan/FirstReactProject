@@ -3,6 +3,13 @@ import './Products.css'
 import ProductsCard from './ProductsCard.jsx'
 
 export default function Products() {
+
+    let allProduct = [
+        {id:1, title:'Interior', type:'architecture', img:'/Products/01.jpg',},
+        {id:2, title:'Trend', type:'setting', img:'/Products/02.jpg',},
+        {id:3, title:'Fresh Style ', type:'philosophy', img:'/Products/03.jpg',}
+    ]
+
   return (
     <section>
         <div className='product_sct container'>
@@ -13,9 +20,9 @@ export default function Products() {
                 </div>
             </div>
             <div className='row'>
-                <ProductsCard></ProductsCard>
-                <ProductsCard></ProductsCard>
-                <ProductsCard></ProductsCard>
+                <ProductsCard {...allProduct[0]} />
+                <ProductsCard {...allProduct[1]} />
+                <ProductsCard {...allProduct[2]} />
             </div>
         </div>
     </section>
