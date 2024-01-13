@@ -1,6 +1,7 @@
 import React from 'react'
 import './Team.css'
 import LeftIndicator from '../../../public/Icons/LeftIndicator'
+import PanelBox from './PanelBox.jsx'
 
 export default function Team() {
   return (
@@ -14,10 +15,12 @@ export default function Team() {
                     </div>
                     <a className='team_content_btn' href="#">More... <LeftIndicator/></a>
                 </div>
-                <div className='col-md-5 col-sm-7'>
+                <div className='col-md-5 col-sm-7 ml-2 panel_col'>
                     <div>
                         <div>
-
+                            <PanelBox/>
+                            <PanelBox/>
+                            <PanelBox/>
                         </div>
                     </div>
                 </div>
