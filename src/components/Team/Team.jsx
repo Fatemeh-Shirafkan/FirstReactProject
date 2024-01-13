@@ -15,7 +15,11 @@ export default function Team() {
                     <a className='team_content_btn' href="#">More... <LeftIndicator/></a>
                 </div>
                 <div className='col-md-5 col-sm-7'>
+                    <div>
+                        <div>
 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
