@@ -3,7 +3,7 @@ import './Products.css'
 
 export default function ProductsCard({title, type, img}) {
   return (
-    <div className='col-sm-6 col-lg-4 mb-sm-3'>
+    <div className='col-sm-6 col-lg-4 mb-sm-4 mb-5'>
         <div className="mb-4 product_card_img_box">
             <img className="product_card_img" src={img} alt="Latest Products Image"/>
         </div>
