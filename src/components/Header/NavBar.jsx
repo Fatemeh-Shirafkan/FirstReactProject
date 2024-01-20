@@ -15,22 +15,22 @@ export default function NavBar() {
           <div className='col d-flex justify-content-end'>
             <ul className='nav_list'>
               <li className='nav_item'>
-                <a className='nav_item_child nav_item-hover' href="">HOME</a>
+                <a className='nav_item_child nav_item-hover' href="#">HOME</a>
                 </li>
               <li className='nav_item'>
-                <a className='nav_item_child nav_item-hover' href="">PRODUCTS</a>
+                <a className='nav_item_child nav_item-hover' href="#">PRODUCTS</a>
                 </li>
               <li className='nav_item'>
-                <a className='nav_item_child nav_item-hover' href="">SERVICES</a>
+                <a className='nav_item_child nav_item-hover' href="#">SERVICES</a>
                 </li>
               <li className='nav_item'>
-                <a className='nav_item_child nav_item-hover' href="">CREDENTIALS</a>
+                <a className='nav_item_child nav_item-hover' href="#">CREDENTIALS</a>
                 </li>
               <li className='nav_item'>
-                <a className='nav_item_child nav_item-hover' href="">PRICING</a>
+                <a className='nav_item_child nav_item-hover' href="#">PRICING</a>
                 </li>
               <li className='nav_item'>
-                <a className='nav_item_child nav_item-hover' href="">CONTACT</a>
+                <a className='nav_item_child nav_item-hover' href="#">CONTACT</a>
                 </li>
             </ul>
 
