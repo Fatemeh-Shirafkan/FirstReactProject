@@ -13,7 +13,22 @@ export default function Portfolio() {
         </div>
 
         <div className='row'>
-
+          <div className='col-xs-12 col-sm-6 col-md-4 mb-md-3'>
+            <img src="" alt="" />
+          </div>
+          <div className='col-xs-12 col-sm-6 col-md-4 mb-md-3'>
+            <img src="" alt="" />
+          </div>
+          <div className='col-xs-12 col-sm-6 col-md-4 mb-md-3'>
+            <img src="" alt="" />
+          </div>
+          
+          <div className='col-xs-12 col-sm-6 col-md-4 mab-3'>
+            <img src="" alt="" />
+          </div>
+          <div className='col-xs-12 col-sm-6 col-md-8 mb-3'>
+            <img src="" alt="" />
+          </div>
         </div>
       </div>
     </section>
