@@ -15,3 +15,8 @@
     color: #a6a7aa;
     margin-bottom: 15px;
 }
+
+.portfolio_img {
+    width: 100%;
+    height: auto;
+}
