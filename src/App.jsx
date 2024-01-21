@@ -4,8 +4,7 @@ import Header from './components/Header/Header.jsx'
 import Products from './components/Products/Products.jsx'
 import Team from './components/Team/Team.jsx'
 import Portfolio from './components/Portfolio/Portfolio.jsx'
-
-
+import Services from './components/Services/Services.jsx'
 
 
 function App() {
@@ -16,6 +15,7 @@ function App() {
       <Products/>
       <Team/>
       <Portfolio/>
+      <Services/>
     </>
   )
 }
