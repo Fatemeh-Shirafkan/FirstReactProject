@@ -54,6 +54,7 @@
 
 .panel {
     border: none;
+    min-width: 320px;
     margin-bottom: 0;
     border-radius: 4px;
     background-color: #fff;
@@ -78,4 +79,36 @@
     display: none;
 }
 
+/* Responsive Team box Start */
+@media screen and (max-width: 1400px) {
 
+    .panel_col {
+        margin-left: 190px;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+
+    .panel_col {
+        margin-left: 160px;
+    }
+
+}
+@media screen and (max-width: 992px) {
+
+    .panel_col {
+        margin-left: 33px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+
+    .panel_col {
+        margin-left: 0px;
+    }
+
+    .panel {
+        min-width: 0;
+    }    
+}
+/* Responsive Team box End */

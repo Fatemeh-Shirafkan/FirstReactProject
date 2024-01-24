@@ -9,19 +9,16 @@ import ServicesBox from './ServicesBox.jsx'
 // import phone from '../../../public/Icons/ServicesBox/phone.jsx'
 
 
-
-
-
 export default function Services() {
 
-    // let ServicesBoxInfo = [
-    //     {title:'Company Formation', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', icon: ,},
-    //     {title:'Stuff Management', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', icon: ,},
-    //     {title:'KPI Optimization', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', icon:,},
-    //     {title:'Information Security', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', icon: ,},
-    //     {title:'Recrutinment', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', icon: ,},
-    //     {title:'Materials Supply', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', icon: ,},
-    // ]
+    let ServicesBoxInfo = [
+        {title:'Company Formation', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
+        {title:'Stuff Management', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
+        {title:'KPI Optimization', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
+        {title:'Information Security', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
+        {title:'Recrutinment', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
+        {title:'Materials Supply', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
+    ]
     
   return (
     <section className='Services_sct'>
