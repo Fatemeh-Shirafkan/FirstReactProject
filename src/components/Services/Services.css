@@ -5,6 +5,8 @@
 .service_box {
     background: #fff;
     padding: 50px;
+    height: 326px;
+
 }
 
 .service_box_info_title {
@@ -23,5 +25,7 @@
 }
 
 .service{
-    margin-top: 15px !important;
+    margin-top: 12px !important;
+    padding-right: 6px !important;
+    padding-left: 6px !important;
 }

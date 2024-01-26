@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <section>
       <div className='container'>
-        kl
+        
       </div>
     </section>
   )

@@ -10,7 +10,7 @@ import './Services.css'
 
 export default function ServicesBox({title, description, icon}) {
   return (
-    <div className='col-sm-4 service'>
+    <div className='col-sm-6 col-md-4 service'>
         <div className="service_box" >
             <div class="vservice_box_icon">
                 {icon}
