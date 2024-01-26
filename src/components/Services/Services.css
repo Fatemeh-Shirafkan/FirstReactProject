@@ -1,0 +1,27 @@
+.Services_sct {
+    padding: 100px 0 100px 0;
+}
+
+.service_box {
+    background: #fff;
+    padding: 50px;
+}
+
+.service_box_info_title {
+    font-weight: 700;
+    color: #515769;
+    line-height: 1.4;
+    margin: 0 0 15px;
+    font-size: 22px;
+}
+
+.service_box_info_description {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a6a7aa;
+    margin-bottom: 15px;
+}
+
+.service{
+    margin-top: 15px !important;
+}

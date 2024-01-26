@@ -21,7 +21,7 @@ export default function Services() {
     ]
     
   return (
-    <section className='Services_sct'>
+    <section className='Services_sct bg-light'>
         <div className='container'>
             <div className='row'>
                 <ServicesBox {...ServicesBoxInfo[0]}/>

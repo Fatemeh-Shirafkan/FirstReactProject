@@ -15,7 +15,7 @@ export default function Products() {
     <section>
         <div className='product_sct container'>
             <div className='row mb-4'>
-                <div className='col-sm-6'>
+                <div className='col'>
                     <h2 className='portfolio_title'>portfolio</h2>
                     <p className='portfolio_text'>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
                 </div>

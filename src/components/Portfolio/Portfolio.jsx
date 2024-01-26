@@ -6,7 +6,7 @@ export default function Portfolio() {
     <section>
       <div className='container portfolio_sct'>
         <div className='row mb-4'>
-          <div className='col-sm-6'>
+          <div className='col'>
             <h2 className='product_title'>Recent Projects</h2>
               <p className='product_text'>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
           </div>
