@@ -12,24 +12,24 @@ import ServicesBox from './ServicesBox.jsx'
 export default function Services() {
 
     let ServicesBoxInfo = [
-        {title:'Company Formation', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
-        {title:'Stuff Management', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
-        {title:'KPI Optimization', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
-        {title:'Information Security', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
-        {title:'Recrutinment', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
-        {title:'Materials Supply', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', },
+        {title:'Company Formation', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor', icon: 'laboratory' },
+        {title:'Stuff Management', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor',icon:' laboratory' },
+        {title:'KPI Optimization', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor',icon: 'laboratory' },
+        {title:'Information Security', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor',icon: 'laboratory' },
+        {title:'Recrutinment', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor',icon:' laboratory' },
+        {title:'Materials Supply', description:'Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor',icon: 'laboratory' },
     ]
     
   return (
     <section className='Services_sct bg-light'>
         <div className='container'>
             <div className='row'>
-                <ServicesBox {...ServicesBoxInfo[0]}/>
-                <ServicesBox {...ServicesBoxInfo[1]}/>
+                <ServicesBox  {...ServicesBoxInfo[0]}/>
+                <ServicesBox  {...ServicesBoxInfo[1]}/>
                 <ServicesBox {...ServicesBoxInfo[2]}/>
                 <ServicesBox {...ServicesBoxInfo[3]}/>
                 <ServicesBox {...ServicesBoxInfo[4]}/>
-                <ServicesBox {...ServicesBoxInfo[5]}/>
+                <ServicesBox  {...ServicesBoxInfo[5]}/>
             </div>
         </div>
     </section>
