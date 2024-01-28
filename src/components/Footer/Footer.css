@@ -1,6 +1,7 @@
-.footer_sct {
+.first_footer_sct {
     padding-top: 80px;
     padding-bottom: 80px;
+    border-bottom: 1px solid #edf0f2;
 }
 
 ul {
@@ -16,4 +17,30 @@ li>a {
     font-weight: 500;
     color: #515769;
     text-decoration: none;
+}
+
+.second_footer_sct {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_right>p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a6a7aa;
+    margin-bottom: 15px;
+}
+
+.text_right>p>a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #FD871F;
+    margin-bottom: 15px;
+    text-decoration: none;
+    margin-left: 4px;
+    text-transform: uppercase;
 }
