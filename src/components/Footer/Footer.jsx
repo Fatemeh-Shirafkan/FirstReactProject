@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <section>
       <div className='container'>
-        <div className='row'>
+        <div className='row footer_sct'>
           <div className='col-2'>
             <ul>
               <li><a href="#">Home</a></li>
@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
         <div className='row'>
           <div className='col-6'>
-            <img src="./public/Logo/logo-dark.png" alt="" />
+            <img src="./public/Logo/logo-dark.png" height={11} width={100} alt="" />
           </div>
           <div className='col-6'>
             <p>FlameOnePage Theme Powered by: 

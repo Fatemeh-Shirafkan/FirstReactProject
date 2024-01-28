@@ -1,0 +1,19 @@
+.footer_sct {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+li {
+    margin-bottom: 15px !important;
+}
+
+li>a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #515769;
+    text-decoration: none;
+}
