@@ -20,6 +20,7 @@
     font-weight: 700;
     color: #fff;
     line-height: 1.1;
+    user-select: none;
 }
 
 .content_box_text {
@@ -29,6 +30,7 @@
     margin-bottom: 35px;
     line-height: 1.4;
     max-width: 466px;
+    user-select: none;
 }
 
 .content_box_btn {

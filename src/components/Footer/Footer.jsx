@@ -6,7 +6,7 @@ export default function Footer() {
     <section>
       <div className='container'>
         <div className='row first_footer_sct'>
-          <div className='col-2'>
+          <div className='col-md-2 col-sm-4 mb-4'>
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">Team</a></li>
@@ -14,7 +14,7 @@ export default function Footer() {
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <div className='col-2'>
+          <div className='col-md-2 col-sm-4 mb-4'>
             <ul>
               <li><a href="#">Twitter</a></li>
               <li><a href="#">Facebook</a></li>
@@ -22,7 +22,7 @@ export default function Footer() {
               <li><a href="#">YouTube</a></li>
             </ul>
           </div>
-          <div className='col-3'>
+          <div className='col-md-3 col-sm-4 mb-4'>
             <ul>
               <li><a href="#">Subscribe to Our Newsletter</a></li>
               <li><a href="#">Privacy Policy</a></li>
@@ -33,10 +33,10 @@ export default function Footer() {
       </div>
       <div className='container second_footer_sct'>
         <div className='row'>
-          <div className='col-6'>
+          <div className='col-md-6 col-12 mb-3'>
             <img src="./public/Logo/logo-dark.png" height={11} width={100} alt="" />
           </div>
-          <div className='col-6 text_right'>
+          <div className='col-md-6 col-12 text_right'>
             <p>FlameOnePage Theme Powered by: 
               <a href="">fatemeh shirafkan</a>
             </p>

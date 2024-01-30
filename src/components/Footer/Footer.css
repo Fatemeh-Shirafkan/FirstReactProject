@@ -44,3 +44,14 @@ li>a {
     margin-left: 4px;
     text-transform: uppercase;
 }
+
+/* Responsive part start */
+
+@media screen and (max-width: 768px) {
+    .text_right {
+        text-align: left;
+    }
+      }
+  
+
+/*Responsive part end */
