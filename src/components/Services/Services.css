@@ -6,8 +6,22 @@
     background: #fff;
     padding: 50px;
     height: 326px;
-
+    cursor: pointer;
+    transition: all 0.5s;
 }
+
+.service_box:hover {
+    background: #FD871F;
+}
+
+.service_box:hover .service_box_info_title {
+    color: #fff;
+}
+
+.service_box:hover .service_box_info_description {
+    color: #fff;
+}
+
 
 .service_box_info_title {
     font-weight: 700;
@@ -16,6 +30,7 @@
     margin: 0 0 15px;
     font-size: 22px;
 }
+
 
 .service_box_info_description {
     font-size: 15px;
@@ -28,4 +43,12 @@
     margin-top: 12px !important;
     padding-right: 6px !important;
     padding-left: 6px !important;
+}
+
+.service_box:hover .vservice_box_icon>svg>g>path {
+    fill: #fff;
+}
+
+.service_box:hover .vservice_box_icon>svg {
+    fill: #fff;
 }
