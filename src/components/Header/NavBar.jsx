@@ -3,6 +3,16 @@ import './Header.css'
 import SVGComponent from '../../../public/Icons/HamburgerMenu.jsx'
 
 export default function NavBar() {
+
+  const clickHandeler = () => {
+    var element = document.getElementByClassName("");
+    // element.classList.toggle("mystyle");
+    console.log(element)
+  };
+    
+
+
+
   return (
     <div className='navBar'>
       <nav className='container'>
@@ -35,7 +45,7 @@ export default function NavBar() {
             </ul>
 
             {/* Responsive part for Hamburger menue */}
-            <div className='hamburgerMenu'>
+            <div className='hamburgerMenu' onClick = {clickHandeler}>
               <SVGComponent/>
             </div>
             {/* <ul>
